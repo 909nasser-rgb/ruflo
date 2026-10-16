@@ -284,9 +284,11 @@
   "enabledPlugins": {
     "ruflo-mods@ruflo": true,
     "ruflo-swarm@ruflo": true,
-    "ruflo-console@ruflo": true
+    "ruflo-console@ruflo": true,
+    "hyperframes@hyperframes": true
   },
   "extraKnownMarketplaces": {
-    "ruflo": { "source": { "source": "github", "repo": "ruvnet/ruflo" } }
+    "ruflo": { "source": { "source": "github", "repo": "ruvnet/ruflo" } },
+    "hyperframes": { "source": { "source": "github", "repo": "heygen-com/hyperframes" } }
   }
 }
