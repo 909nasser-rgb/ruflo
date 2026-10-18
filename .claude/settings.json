@@ -38,7 +38,18 @@
     "deny": [
       "Read(./.env)",
       "Read(./.env.*)",
-      "Bash(rm -rf /)"
+      "Bash(rm -rf /)",
+      "Read(./**/.npmrc)",
+      "Read(~/.npmrc)",
+      "Read(//tmp/.npmrc-publish*)",
+      "Read(~/.ruflo/**)",
+      "Read(./**/*signing*.key)",
+      "Read(./**/*.pem)",
+      "Bash(npm publish:*)",
+      "Bash(npm dist-tag:*)",
+      "Bash(gcloud secrets:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)"
     ]
   },
   "hooks": {
